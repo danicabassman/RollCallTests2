@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RosterItemLinLay"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:paddingTop="2sp" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RosterItemLinLay"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvRosterItemName"
+        android:layout_width="300px"
+        android:layout_height="54dp"
+        android:layout_margin="5dp"
+        android:textColor="#0099CC"
+        android:textSize="18sp" >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/rosterComment"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+
+    </LinearLayout>
+	<CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+    <!-- <RadioGroup
+        android:id="@+id/radio_group1"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/checkin"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="@string/rad_checkin"
+            android:textColor="#0099CC"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/checkout"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/rad_checkout"
+            android:textColor="#0099CC"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="79dp"
+            android:layout_height="33dp"
+            android:checked="true"
+            android:text="@string/rad_absent"
+            android:textColor="#FAAB50"
+            android:textSize="20dp" />
+    </RadioGroup> -->
+
+</LinearLayout>

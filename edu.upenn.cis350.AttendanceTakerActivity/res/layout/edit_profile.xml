@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingLeft="3dp"
+    android:paddingBottom="3dp"
+    android:paddingRight="3dp" >
+	   
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.6"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:text="Student Name: "
+            android:layout_margin="10dp"
+            android:textColor="#0099CC"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileName"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+    </LinearLayout>
+    
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.6"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:text="*Student ID: "
+            android:layout_margin="10dp"
+            android:textColor="#0099CC" 
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileIDNumber"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+    
+    </LinearLayout>
+    
+        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.6"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:text="Grade: "
+            android:layout_margin="10dp"
+            android:textColor="#0099CC" 
+             android:textSize="20dp"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileGrade"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    
+        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.6"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Site: "
+            android:layout_margin="10dp"
+            android:textColor="#0099CC"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileSite"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+	</LinearLayout>
+	        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.6"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Program: "
+            android:textColor="#0099CC" 
+            android:layout_margin="10dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileProgram"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+	</LinearLayout>
+	        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.6"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Comment: "
+            android:textColor="#0099CC"
+            android:layout_margin="10dp"
+            android:textStyle ="italic"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileComment"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+	</LinearLayout>
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.6"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="School: "
+            android:textColor="#0099CC"
+            android:layout_margin="10dp"
+            android:textSize="20dp"  />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileSchool"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+    </LinearLayout>
+    
+       <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.6"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textColor="#0099CC" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileAddress"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+	</LinearLayout>
+        
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.6"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Contact Name: "
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textColor="#0099CC" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileEmergContName"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+    </LinearLayout>
+     <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.6"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Contact Phone: "
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="#0099CC" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfilePhone"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:textColor="#000000" />
+        
+    </LinearLayout>
+    
+        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.6"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Contact Relationship: "
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="#0099CC" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editProfileEmergContType"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+        </LinearLayout>
+    
+            <Button
+        android:background="@drawable/blue_button"
+        android:textColor="#ffffff"
+        android:id="@+id/profileEditDone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onDoneButtonClick"
+        android:textSize="20dp"
+        android:text="Done" />
+
+</LinearLayout>

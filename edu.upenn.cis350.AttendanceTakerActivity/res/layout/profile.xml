@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingLeft="3dp"
+    android:paddingBottom="3dp"
+    android:paddingRight="3dp" >
+	   
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Student Name: "
+            android:textColor="#0099CC"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_margin="10dp"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+    </LinearLayout>
+    
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.7"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Student ID: "
+                android:textColor="#0099CC"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/profileIDNumber"
+                android:layout_width="550dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+        </LinearLayout>
+    
+      <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Grade: "
+            android:textColor="#0099CC"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/profileGrade"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    
+       <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Site: "
+            android:textColor="#0099CC"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/profileSite"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+	</LinearLayout>
+	
+      <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Program: "
+            android:textColor="#0099CC"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/profileProgram"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+    </LinearLayout>
+  <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Comment: "
+            android:textStyle ="italic"
+             android:layout_margin="10dp"
+            android:textSize ="20dp"
+            android:textColor="#0099CC" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/profileComment"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="School: "
+             android:textSize ="20dp"
+             android:layout_margin="10dp"
+            android:textColor="#0099CC" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/profileSchool"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+    </LinearLayout>
+        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textSize ="20dp"
+             android:layout_margin="10dp"
+            android:textColor="#0099CC" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/profileAddress"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+	</LinearLayout>
+   
+  <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize ="20dp"
+             android:layout_margin="10dp"
+            android:text="Contact Name: "
+            android:textColor="#0099CC" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/profileEmergContName"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize ="20dp"
+             android:layout_margin="10dp"
+            android:text="Contact Phone: "
+            android:textColor="#0099CC" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/profilePhone"
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:textColor="#000000" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="300px"
+            android:layout_height="100dp"
+            android:text="Contact Relationsip: "
+            android:textColor="#0099CC"
+             android:layout_margin="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/profileEmergContType"
+            android:layout_width="550dp"
+            android:layout_height="119dp"
+            android:textColor="#000000" />
+        
+        </LinearLayout>
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/editProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:onClick="onEditButtonClick"
+            android:layout_margin="1dp"
+            android:text="Edit"
+            android:textSize="20dp"
+            android:textColor="#ffffff" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

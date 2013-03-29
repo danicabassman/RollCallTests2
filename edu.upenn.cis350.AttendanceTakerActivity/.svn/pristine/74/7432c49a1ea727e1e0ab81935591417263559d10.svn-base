@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/MyTopButton"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingLeft="3dp"
+    android:paddingBottom="3dp"
+    android:paddingRight="3dp" >
+    
+    <TextView
+        android:id="@+id/titlething"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:text="Activities"
+        android:textColor="#0099CC"
+        android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titlething"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="94dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <Button
+                android:id="@+id/takeAttendance"
+                android:layout_width="194dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/blue_button"
+                android:onClick="onTakeAttendanceClick"
+                android:text="Take Attendance"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/viewRoster"
+                android:layout_width="195dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/blue_button"
+                android:onClick="onViewRosterClick"
+                android:text="Edit Roster"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+</RelativeLayout>

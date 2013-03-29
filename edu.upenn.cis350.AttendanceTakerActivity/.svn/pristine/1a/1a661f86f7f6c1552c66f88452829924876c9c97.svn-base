@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/MyTopButton"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingLeft="3dp"
+    android:paddingBottom="3dp"
+    android:paddingRight="3dp" >
+
+    <TextView
+        android:id="@+id/roster_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:text="Students"
+        android:textColor="#0099CC"
+        android:textSize="32sp" />
+
+    <ListView
+        android:id="@+id/RosterList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:layout_weight="1" />
+        
+    <Button
+        android:background="@drawable/blue_button"
+        android:textColor="#ffffff"
+        android:id="@+id/submitRoster"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSubmitButtonClick" />
+
+</LinearLayout>
+

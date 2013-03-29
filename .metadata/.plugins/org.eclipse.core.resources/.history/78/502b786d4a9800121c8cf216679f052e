@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">project3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Login_Page">Login Page</string>
+    <string name="Roll_Call_Visualization">Roll Call Visualization</string>
+    <string name="table_row_value1">Total Possible Attendance</string>
+    <string name = "table_row_value2">Total Actual Attendance</string>
+    <string-array name="spinnerArray">
+        <item>No Filter</item>
+        <item>Gender</item>
+        <item>Third Grade</item>
+        <item>Fourth Grade</item>
+        <item>Fifth Grade</item>
+	</string-array>
+</resources>

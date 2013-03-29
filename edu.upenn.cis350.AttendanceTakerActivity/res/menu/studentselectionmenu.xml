@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/check_in_student" android:title="Check In Selection"></item>
+    <item android:id="@+id/check_out_student" android:title="Check Out Selection"></item>
+    <item android:id="@+id/mark_absent_student" android:title="Mark Absent Selection"></item>
+         
+</menu>
