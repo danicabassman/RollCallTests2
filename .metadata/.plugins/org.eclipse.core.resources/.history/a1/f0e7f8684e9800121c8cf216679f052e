@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+     >
+          <Button
+        	android:id="@+id/graphChange"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:onClick="onGraphBtnClick"
+        	android:layout_alignParentBottom="true"
+        	android:layout_alignParentLeft="true"
+        	android:text="Change Graph" 
+        	android:textColor="#ffffff"
+            android:textSize="30dp"
+             android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/blue_button"
+        	/>     
+        	
+        <DatePicker
+        android:id="@+id/graphDateStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" 
+        android:layout_alignParentRight="true"/>
+        
+          <TextView
+        android:id= "@+id/schoolName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:layout_alignParentTop = "true"
+        android:textSize="40dp"
+        android:textColor="#0099CC"
+        />
+        
+        <TableLayout
+            android:id="@+id/fullTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/schoolName" 
+            >
+
+
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:background="@layout/shape" >
+
+                
+
+                   <TextView
+            android:id="@+id/PossibleAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/table_row_value1" />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/shape" >
+
+            <TextView
+            android:id="@+id/ActualAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/table_row_value2" />
+            </TableRow>
+        
+            <Spinner
+            android:id="@+id/spinnerAggregate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" 
+            android:layout_below="@+id/fullTable"
+            android:layout_marginTop="14dp" />
+
+
+        </TableLayout>
+        
+             <LinearLayout
+
+             android:id="@+id/chart"
+
+             android:layout_width="fill_parent"
+
+             android:layout_height="300dp"
+
+             android:orientation="horizontal" 
+
+             android:layout_below="@id/fullTable"
+             android:layout_above= "@+id/graphDateStart"
+
+           />
+
+
+            
+            </RelativeLayout>
+
+</LinearLayout>
